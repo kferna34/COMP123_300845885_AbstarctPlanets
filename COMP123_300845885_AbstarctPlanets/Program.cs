@@ -11,5 +11,10 @@ namespace COMP123_300845885_AbstarctPlanets
         static void Main(string[] args)
         {
         }
+
+        public void waitForAnyKey()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

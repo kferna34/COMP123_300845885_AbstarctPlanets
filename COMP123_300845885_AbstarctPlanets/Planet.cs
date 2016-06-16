@@ -5,6 +5,13 @@ using System.Text;
 
 namespace COMP123_300845885_AbstarctPlanets
 {
+    /*
+     * Author: Krytia Fernandez, 300845885
+     * Date Last modified : June 16,2016
+     * Description: a program athat implements the classes and interfaces
+     * version : 0.0.0.2 -- created all the classes including its methods,fields and properties
+     * 
+     */
     public abstract class Planet
     {
         private double _diameter;
