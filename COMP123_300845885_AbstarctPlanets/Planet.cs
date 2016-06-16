@@ -9,7 +9,7 @@ namespace COMP123_300845885_AbstarctPlanets
      * Author: Krytia Fernandez, 300845885
      * Date Last modified : June 16,2016
      * Description: a program athat implements the classes and interfaces
-     * version : 0.0.0.2 -- created all the classes including its methods,fields and properties
+     * version : 0.0.0.3 -- created all the interfaces and assigned it to its respective classes
      * 
      */
     public abstract class Planet

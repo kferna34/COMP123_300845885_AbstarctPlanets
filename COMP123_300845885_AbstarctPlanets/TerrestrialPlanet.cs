@@ -5,7 +5,7 @@ using System.Text;
 
 namespace COMP123_300845885_AbstarctPlanets
 {
-    public class TerrestrialPlanet : Planet
+    public class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
         public TerrestrialPlanet()
         {
