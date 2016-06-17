@@ -7,7 +7,7 @@ namespace COMP123_300845885_AbstarctPlanets
 {
     public class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
-        public TerrestrialPlanet()
+        public TerrestrialPlanet():base(name)
         {
             throw new System.NotImplementedException();
         }

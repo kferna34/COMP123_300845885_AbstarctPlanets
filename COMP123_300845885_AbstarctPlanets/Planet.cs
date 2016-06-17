@@ -9,7 +9,7 @@ namespace COMP123_300845885_AbstarctPlanets
      * Author: Krytia Fernandez, 300845885
      * Date Last modified : June 16,2016
      * Description: a program athat implements the classes and interfaces
-     * version : 0.0.0.5 --finished planet class..documentation needed 
+     * version : 0.0.0. --finished the fields in GiantPlanet.cs..documentation needed .. method for HasMoon still missing --
      * 
      */
     public abstract class Planet

@@ -7,5 +7,17 @@ namespace COMP123_300845885_AbstarctPlanets
 {
     public interface IHasMoons
     {
+        bool _hasMoons
+        {
+            get;
+            set;
+
+        }
+        
     }
+
+       
+
+
+   
 }
