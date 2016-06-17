@@ -9,7 +9,7 @@ namespace COMP123_300845885_AbstarctPlanets
      * Author: Krytia Fernandez, 300845885
      * Date Last modified : June 16,2016
      * Description: a program athat implements the classes and interfaces
-     * version : 0.0.0.4 -- did planet.cs .... fixed the fields  which is the get set;
+     * version : 0.0.0.5 --finished planet class..documentation needed 
      * 
      */
     public abstract class Planet
@@ -110,7 +110,7 @@ namespace COMP123_300845885_AbstarctPlanets
 
         public override string ToString()
         {
-            return base.ToString();
+            return string.Format(" Planet {0} is {1} and weights {2}", this.Name, this.Diameter, this.Mass);
         }
         
 
