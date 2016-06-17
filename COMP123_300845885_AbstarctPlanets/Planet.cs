@@ -9,7 +9,7 @@ namespace COMP123_300845885_AbstarctPlanets
      * Author: Krytia Fernandez, 300845885
      * Date Last modified : June 16,2016
      * Description: a program athat implements the classes and interfaces
-     * version : 0.0.0. --finished the fields in GiantPlanet.cs..documentation needed .. method for HasMoon still missing --
+     * version : 0.0.0.7 -- giant planet done.. still needs to connect things up byt the feilds and casses are done... others are not done-- to be continued
      * 
      */
     public abstract class Planet
@@ -100,17 +100,18 @@ namespace COMP123_300845885_AbstarctPlanets
                 this._rotationPeriod = value;
             }
         }
-        public   Planet(string name,double diameter,double mass)
+        public   Planet(string name,double diameter,double mass) // wehere the vars are assigned
         {
-            this._name = Name;
-            this._diameter = Diameter;
-            this._mass = Mass;
+            name = "Krytia";
+            diameter = 11;
+            mass = 56;
+          
 
         }
 
         public override string ToString()
         {
-            return string.Format(" Planet {0} is {1} and weights {2}", this.Name, this.Diameter, this.Mass);
+            return string.Format(" Planet {0} is {1} and weights {2}", Name,Diameter,Mass);
         }
         
 

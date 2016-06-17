@@ -7,50 +7,44 @@ namespace COMP123_300845885_AbstarctPlanets
 {
     public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
+        bool _hasRings = true;
+        bool _hasMoons = true;
         private string _type;
-
-        public bool _hasMoons
-        {
-            get
-            {
-                return this._hasMoons;
-                
-            }
-
-            set
-            {
-                this._hasMoons = value;
-            }
-        }
-
-        public bool _hasRings
-        {
-            get
-            {
-                return this._hasRings;
-            }
-            set
-            {
-                    this._hasRings = value;
-            }
-        }
+       
+        
 
         /// <summary>
         /// holds the string that will describe the type of planet
         /// </summary>
-        public string Type()
+        public bool HasRings()
+
         {
-            Console.WriteLine("What type of planet is this planet? --- Gas or Ice? ");
-            Console.ReadLine();
-            return this._type;
+            if (RingCount != 0)
+            {
+                return _hasRings;
+            }
+            else
+            {
+                return false;
+            }
+
         }
 
         public GiantPlanet(string name, double diameter, double mass, string type) : base(name, diameter, mass)
         {
-            
-            
+            type = "gass";
 
-
+        }
+        public bool HasMoons()
+        {
+            if (MoonCount != 0)
+            {
+                return this._hasMoons;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }// end for the document

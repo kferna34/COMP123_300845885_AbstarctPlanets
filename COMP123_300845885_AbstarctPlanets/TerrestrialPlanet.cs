@@ -7,9 +7,12 @@ namespace COMP123_300845885_AbstarctPlanets
 {
     public class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
-        public TerrestrialPlanet():base(name)
+        bool _hasMoons;
+        private bool _oxygen;
+
+        public TerrestrialPlanet(string name, double diameter, double mass, string type) : base(name, diameter, mass)
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public bool Habitable()
@@ -19,7 +22,14 @@ namespace COMP123_300845885_AbstarctPlanets
 
         public bool HasMoons()
         {
-            throw new System.NotImplementedException();
+            if (MoonCount != 0)
+            {
+                return this._hasMoons;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
