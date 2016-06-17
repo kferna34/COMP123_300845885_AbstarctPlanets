@@ -9,7 +9,7 @@ namespace COMP123_300845885_AbstarctPlanets
      * Author: Krytia Fernandez, 300845885
      * Date Last modified : June 16,2016
      * Description: a program athat implements the classes and interfaces
-     * version : 0.0.0.3 -- created all the interfaces and assigned it to its respective classes
+     * version : 0.0.0.4 -- did planet.cs .... fixed the fields  which is the get set;
      * 
      */
     public abstract class Planet
@@ -26,7 +26,7 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._diameter;
             }
 
         }
@@ -35,7 +35,7 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._mass;
             }
 
         }
@@ -44,11 +44,12 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._moonCount;
             }
 
             set
             {
+                this._moonCount = value;
             }
         }
 
@@ -56,7 +57,7 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._name;
             }
 
         }
@@ -65,11 +66,12 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._orbitalPeriod;
             }
 
             set
             {
+                this._orbitalPeriod = value;
             }
         }
 
@@ -77,11 +79,12 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._ringCount;
             }
 
             set
             {
+                this._ringCount = value;
             }
         }
 
@@ -89,15 +92,19 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             get
             {
-                throw new System.NotImplementedException();
+                return this._rotationPeriod;
             }
 
             set
             {
+                this._rotationPeriod = value;
             }
         }
         public   Planet(string name,double diameter,double mass)
         {
+            this._name = Name;
+            this._diameter = Diameter;
+            this._mass = Mass;
 
         }
 

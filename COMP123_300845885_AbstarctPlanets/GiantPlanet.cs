@@ -8,11 +8,17 @@ namespace COMP123_300845885_AbstarctPlanets
     public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
         private string _type;
-
-        public GiantPlanet()
+        public string Type()
         {
-            throw new System.NotImplementedException();
+            this.Type = _type;
         }
+    
+        public GiantPlanet(string name, double diameter, double mass,string type) : base(name, diameter, mass)
+        {
+            
+        }
+
+     
 
         public bool HasMoons()
         {
