@@ -7,7 +7,7 @@ using System.Threading.Tasks;
     * Author: Krytia Fernandez, 300845885
     * Date Last modified : july 6,2016
     * Description: a program that implements the classes and interfaces
-    * version : 0.0.0.10 --final== just more internal documentation needed
+    * version : 0.0.0.11 == FINAL COMMIT
     * 
     */
 namespace COMP123_300845885_AbstarctPlanets
