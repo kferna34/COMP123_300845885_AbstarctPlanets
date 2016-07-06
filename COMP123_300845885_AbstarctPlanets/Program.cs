@@ -19,13 +19,14 @@ namespace COMP123_300845885_AbstarctPlanets
         static void Main(string[] args)
         {
             Console.WriteLine("===================================");
-            GiantPlanet gPlanet = new GiantPlanet("CodingPlanet",52222000, 0000000, "dark");
+            GiantPlanet gPlanet = new GiantPlanet("CodingPlanet",52222000, 7896545, "dark");
             Console.WriteLine(gPlanet.ToString());
             Console.WriteLine("===================================");
             Console.WriteLine();
-            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            Console.WriteLine("~~~~~~~~~~+++++~~~~~~~~~~+++++~~~~~~~~~~~~~~~");
             TerrestrialPlanet tPlanet = new TerrestrialPlanet("pluto", 2365, 8954, true);
             Console.WriteLine(tPlanet.ToString());
+            Console.WriteLine("~~~~~~~~~~+++++~~~~~~~~~~+++++~~~~~~~~~~~~~~~");
             Console.WriteLine();
             waitForAnyKey();
 

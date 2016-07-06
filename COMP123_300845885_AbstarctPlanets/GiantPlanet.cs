@@ -7,19 +7,14 @@ namespace COMP123_300845885_AbstarctPlanets
 {
     public class GiantPlanet : Planet, IHasMoons, IHasRings
     {
-        bool _hasRings = true;
-        bool _hasMoons = true;
         private string _type;
-
-
-
         /// <summary>
         /// holds the string that will describe the type of planet
         /// </summary>
         public bool HasRings()
 
         {
-            if (RingCount != 0)
+            if (RingCount > 0)
             {
                 return true;
             }
@@ -41,7 +36,7 @@ namespace COMP123_300845885_AbstarctPlanets
         /// <returns></returns>
         public bool HasMoons()
         {
-            if (MoonCount != 0)
+            if (MoonCount > 0)
             {
                 return true;
             }

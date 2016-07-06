@@ -15,7 +15,13 @@ namespace COMP123_300845885_AbstarctPlanets
             this.Oxygen = Oxygen;
         }
 
-            private bool _oxygen;
+        public TerrestrialPlanet(string name, double diameter, double mass, bool v) : base(name, diameter, mass)
+        {
+            this.v = v;
+        }
+
+        private bool _oxygen;
+        private bool v;
 
         //~~~~~~~~~~~~~~~~~~~~~~~PUBLIC PROPERTY~~~~~~~~~~~~~~~~~~~~~~
         /// <summary>
@@ -54,7 +60,7 @@ namespace COMP123_300845885_AbstarctPlanets
         /// <returns></returns>
         public bool HasMoons()
         {
-            if (MoonCount != 0)
+            if (MoonCount > 0)
             {
                 return true;
             }
