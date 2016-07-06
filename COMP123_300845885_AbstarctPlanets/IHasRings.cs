@@ -7,6 +7,6 @@ namespace COMP123_300845885_AbstarctPlanets
 {
     public interface IHasRings
     {
-       
+        bool HasRings();
     }
 }
