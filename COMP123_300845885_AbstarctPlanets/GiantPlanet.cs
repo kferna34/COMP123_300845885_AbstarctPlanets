@@ -10,8 +10,8 @@ namespace COMP123_300845885_AbstarctPlanets
         bool _hasRings = true;
         bool _hasMoons = true;
         private string _type;
-       
-        
+
+
 
         /// <summary>
         /// holds the string that will describe the type of planet
@@ -21,7 +21,7 @@ namespace COMP123_300845885_AbstarctPlanets
         {
             if (RingCount != 0)
             {
-                return _hasRings;
+                return true;
             }
             else
             {
@@ -32,19 +32,25 @@ namespace COMP123_300845885_AbstarctPlanets
 
         public GiantPlanet(string name, double diameter, double mass, string type) : base(name, diameter, mass)
         {
-            type = "gass";
+            this._type = type;
 
         }
+        /// <summary>
+        /// Hasmoon() returns true 
+        /// </summary>
+        /// <returns></returns>
         public bool HasMoons()
         {
             if (MoonCount != 0)
             {
-                return this._hasMoons;
+                return true;
             }
             else
             {
                 return false;
             }
         }
+
     }
+
 }// end for the document

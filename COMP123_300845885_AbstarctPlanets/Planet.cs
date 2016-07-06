@@ -7,8 +7,8 @@ namespace COMP123_300845885_AbstarctPlanets
 {
     /*
      * Author: Krytia Fernandez, 300845885
-     * Date Last modified : June 16,2016
-     * Description: a program athat implements the classes and interfaces
+     * Date Last modified : June 30,2016
+     * Description: a program that implements the classes and interfaces
      * version : 0.0.0.7 -- giant planet done.. still needs to connect things up byt the feilds and casses are done... others are not done-- to be continued
      * 
      */
@@ -102,7 +102,7 @@ namespace COMP123_300845885_AbstarctPlanets
         }
         public   Planet(string name,double diameter,double mass) // wehere the vars are assigned
         {
-            name = "Krytia";
+            name = "Mars";
             diameter = 11;
             mass = 56;
           
